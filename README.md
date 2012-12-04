@@ -38,6 +38,8 @@ module.exports.tests = {
 `sources` will be the files that will be instrumented.
 Write your buster test as usual.
 
+Example project: [buster-istanbul-demo](https://github.com/kates/buster-istanbul-demo)
+
 ## License
 Copyright (c) 2012 kates  
 Licensed under the MIT license.
