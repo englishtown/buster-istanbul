@@ -1,26 +1,42 @@
 # buster-istanbul
 
-The best project ever.
+busterjs coverage extension
 
 ## Getting Started
-Install the module with: `npm install buster-istanbul`
 
-```javascript
-var buster_istanbul = require('buster-istanbul');
-buster_istanbul.awesome(); // "awesome"
+Add buster-istanbul as a dependency in your package.json file.
+
+```json
+{
+  "name": "awesome name",
+  ...
+  "dependencies": {
+    "buster-istanbul": "*"
+  }
+}
 ```
 
-## Documentation
-_(Coming soon)_
+Configure buster to use buster-istanbul as extension
 
-## Examples
-_(Coming soon)_
+```javascript
+module.exports.tests = {
+    environment: "node",
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
+    rootPath : "./",
+    sources: [
+        "src/**/*.js"
+    ],
+    tests : [
+       "test/**/*-test.js"
+    ],
+    extensions: [
+        require('buster-istanbul')
+    ]
+};
+```
 
-## Release History
-_(Nothing yet)_
+`sources` will be the files that will be instrumented.
+Write your buster test as usual.
 
 ## License
 Copyright (c) 2012 kates  
