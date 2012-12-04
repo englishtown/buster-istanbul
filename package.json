@@ -1,0 +1,39 @@
+{
+  "name": "buster-istanbul",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/englishtown/buster-istanbul",
+  "author": {
+    "name": "kates",
+    "email": "katesgasis@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/englishtown/buster-istanbul.git"
+  },
+  "bugs": {
+    "url": "https://github.com/englishtown/buster-istanbul/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/englishtown/buster-istanbul/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/buster-istanbul",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "buster-core": "*",
+    "istanbul": "*",
+    "glob-whatev": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": []
+}
