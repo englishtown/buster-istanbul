@@ -1,0 +1,10 @@
+{
+	"name": "requiredemo",
+	"version": "0.1.0",
+	"dependencies": {
+		"node-static": "*",
+		"buster": "*",
+		"buster-istanbul": "*",
+		"buster-amd": "*"
+	}
+}
