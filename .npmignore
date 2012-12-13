@@ -3,3 +3,4 @@
 .npmignore
 doc
 node_modules
+examples
