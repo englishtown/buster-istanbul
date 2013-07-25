@@ -48,15 +48,19 @@ module.exports.tests = {
 `outputDirectory` is path to where the files will be written to.
 Defaults to the current working directory.
 
-`format` is a _string_ or a _list_ of formats to generage.
+`format` is a _string_ or a _list_ of formats to generate.
 
 Currently supported formats:
 * lcov
 * cobertura
 * json
 * text
+* text-summary
 
-`silent` is a flag to turn off reporting at the end of the test.
+if text and text-summary formats are given, coverage.txt and coverage-summary.txt
+files will be generated besides being output to the console at the same time.
+
+`silent` is a flag to turn off reporting at the end of the test run.
 Valid values is `true` or `false`. Defaults to `false`.
 
 `instrument` is a flag to turn off instrumentation of your source file.
