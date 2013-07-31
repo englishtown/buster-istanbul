@@ -1,7 +1,7 @@
 {
   "name": "buster-istanbul",
   "description": "buster extension for istanbul code coverage.",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "homepage": "https://github.com/englishtown/buster-istanbul",
   "author": {
     "name": "kates",
