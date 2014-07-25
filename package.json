@@ -30,7 +30,7 @@
   "dependencies": {
     "buster-core": "*",
     "istanbul": "*",
-    "glob-whatev": "*"
+    "glob": "*"
   },
   "devDependencies": {
     "grunt": "~0.3.17"
