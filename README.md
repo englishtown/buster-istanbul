@@ -31,7 +31,8 @@ module.exports.tests = {
     ],
     "buster-istanbul": {
       outputDirectory: "coverage",
-      format: "lcov"
+      format: "lcov",
+      excludes: ["**/*.json"]
     },
     extensions: [
         require('buster-istanbul')
@@ -65,6 +66,10 @@ Valid values is `true` or `false`. Defaults to `false`.
 
 `instrument` is a flag to turn off instrumentation of your source file.
 You will need to handle this yourself. Defaults to `true`.
+
+`excludes` is an array of glob paths that will be excluded from instrumentation.
+This can be helpful if your sources include non-js files that needed to be excluded, such as .html or .json files.
+Consult [node-glob](https://github.com/isaacs/node-glob) for more information on globs.
 
 Write your buster test as usual.
 
