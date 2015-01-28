@@ -29,8 +29,9 @@
   },
   "dependencies": {
     "buster-core": "*",
+    "glob": "*",
     "istanbul": "*",
-    "glob": "*"
+    "minimatch": "^2.0.1"
   },
   "devDependencies": {
     "grunt": "~0.3.17"
