@@ -71,6 +71,9 @@ You will need to handle this yourself. Defaults to `true`.
 This can be helpful if your sources include non-js files that needed to be excluded, such as .html or .json files.
 Consult [node-glob](https://github.com/isaacs/node-glob) for more information on globs.
 
+`sources` is an array of glob paths that will be instrumented in addition to paths supplied in global sources. This
+allows paths to be instrumented, but not automatically loaded. Note: This only has effect in a node environment
+
 Write your buster test as usual.
 
 Example project: [buster-istanbul-demo](https://github.com/kates/buster-istanbul-demo)
