@@ -2,22 +2,22 @@
   "name": "buster-istanbul",
   "description": "buster extension for istanbul code coverage.",
   "version": "0.1.16",
-  "homepage": "https://github.com/major-mann/buster-istanbul",
+  "homepage": "https://github.com/englishtown/buster-istanbul",
   "author": {
     "name": "kates",
     "email": "katesgasis@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:major-mann/buster-istanbul.git"
+    "url": "git://github.com/englishtown/buster-istanbul.git"
   },
   "bugs": {
-    "url": "https://github.com/major-mann/buster-istanbul/issues"
+    "url": "https://github.com/englishtown/buster-istanbul/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/major-mann/buster-istanbul/blob/master/LICENSE-MIT"
+      "url": "https://github.com/englishtown/buster-istanbul/blob/master/LICENSE-MIT"
     }
   ],
   "main": "lib/buster-istanbul",
